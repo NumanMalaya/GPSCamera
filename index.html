@@ -18,7 +18,6 @@
 
     #capture {
       width: 400px;
-      height: 500px;
       margin: 20px auto;
       position: relative;
       background: white;
@@ -27,8 +26,8 @@
 
     .main-photo {
       width: 400px;
-      height: 700px;
-      object-fit: contain; /* changed from cover to contain */
+      height: 500px;
+      object-fit: fill; /* changed from cover to contain */
       display: block;
       background-color: white; /* ensures white background behind image */
     }
@@ -37,11 +36,11 @@
       position: absolute;
       bottom: 10px;
       left: 0;
-      width: 300px;
+      width: 400px;
       background-color: rgba(44, 44, 44, 0.85);
       color: white;
       display: flex;
-      align-items: flex-center;
+      align-items: flex-start;
       padding: 8px;
       font-size: 11px;
       box-sizing: border-box;
@@ -136,7 +135,7 @@
     </div>
     <div class="gps-logo">
       <img src="data/icon2.png" alt="GPS Icon" class="gps-logo-icon" />
-      <span>GPS Map Camera</span>
+      <span>GPS Malaya</span>
     </div>
   </div>
 </div>
@@ -222,7 +221,4 @@
 
 </body>
 </html>
-
   
-
-
